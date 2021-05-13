@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Week 5</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/490cc81e8b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container-all">
+      <div class="container">
+        <div class="row default-city">
+          <div class="col-2"><p class="city">New York</p></div>
+          <div class="col-2"><p class="city">Peking</p></div>
+          <div class="col-2"><p class="city">Berlin</p></div>
+        </div>
+        <br />
+        <br />
+        <h2>How is the weather in ...?</h2>
+        
+        <form class="form-inline form-sk" id="city-form">
+          <div class="form-group mb-2"></div>
+          <div class="form-group mx-sm-3 mb-2">
+            <label for="inputCity" class="sr-only">Enter your city</label>
+            <input
+              type="plain-text"
+              class="form-control"
+              id="inputCity"
+              placeholder="Enter your city"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">SEARCH</button>
+          <button class="btn btn-success" id="currentButton">CURRENT</button>
+        </form>
+      </div>
+    
+    <br />
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h1 id="current-city">New York</h1>
+        </div>
+        <div class="col-sm">
+          <i class="far fa-sun alone-sun"></i>
+        </div>
+        <div class="col-sm degree-now" id="current-degree">
+          19°
+        </div>
+      </div>
+      <div class="container saturday">
+        <div class="row">
+          <div class="col-4">
+            <h3 id= "current-date">Saturday 14:30</h3>
+          </div>
+          <div class="col-sm wind">
+            <span id="wind">Wind: 3 km/h </span><br />
+             <span id="highestTemperature">H: 22° </span> <br />
+            <span id="lowestTemperature"> T: 9° </span>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <div class="container">
+          <div class="row row-cols-6 weekdays">
+            <div class="col">Sun</div>
+            <div class="col">Mon</div>
+            <div class="col">Tue</div>
+            <div class="col">Wed</div>
+            <div class="col">Thu</div>
+            <div class="col">Fri</div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-cols-6">
+            <div class="col"><i class="far fa-sun sun-sk"></i></div>
+            <div class="col"><i class="far fa-sun sun-sk"></i></div>
+            <div class="col"><i class="fas fa-cloud-sun cloud-sk"></i></div>
+            <div class="col"><i class="far fa-sun sun-sk"></i></div>
+            <div class="col"><i class="far fa-sun sun-sk"></i></div>
+            <div class="col"><i class="fas fa-cloud-sun cloud-sk"></i></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row row-cols-6 week-degrees">
+            <div class="col">20°</div>
+            <div class="col">20°</div>
+            <div class="col">22°</div>
+            <div class="col">22°</div>
+            <div class="col">22°</div>
+            <div class="col">22°</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
