@@ -1,0 +1,99 @@
+.container-all {
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  border: 1px solid;
+  border-color: #939aa9;
+  width: 850px;
+}
+
+h1 {
+  color: #ff3466;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: #8f8f8f;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+h3 {
+  padding-left: 0px;
+  color: #939aa9;
+}
+
+.default-city {
+  font-weight: bold;
+  color: #8fc351;
+  font-size: 15px;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.default-city:hover {
+  cursor: pointer;
+}
+
+.form-sk {
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #8fc351;
+  border-color: #8fc351;
+  margin-right: 33px;
+}
+
+.btn-success {
+  position: relative;
+  top: -3.5px;
+  color: white;
+  background-color: #bf51c3;
+  border-color: #bf51c3;
+}
+
+.weekdays {
+  color: #ff3466;
+  font-weight: bold;
+  line-height: 50px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.wind {
+  color: #939aa9;
+  font-family: "Roboto", sans-serif;
+}
+
+.degree-now {
+  color: #ff3466;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.week-degrees {
+  color: #8f8f8f;
+  line-height: 50px;
+}
+
+.sun-sk {
+  font-size: 25px;
+  color: rgb(238, 238, 24);
+}
+
+.alone-sun {
+  font-size: 45px;
+  color: rgb(238, 238, 24);
+}
+
+.cloud-sk {
+  font-size: 25px;
+  color: rgb(194, 194, 155);
+}
+
+.container.saturday {
+  padding-left: 0px;
+  font-family: "Roboto", sans-serif;
+}
