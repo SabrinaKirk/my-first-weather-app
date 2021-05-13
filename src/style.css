@@ -1,7 +1,6 @@
-.container-all {
+.weatherAppFrame {
   margin: 0 auto;
   margin-top: 90px;
-  margin-bottom: 90px;
   border: 1px solid;
   border-color: #939aa9;
   width: 850px;
@@ -96,4 +95,9 @@ h3 {
 .container.saturday {
   padding-left: 0px;
   font-family: "Roboto", sans-serif;
+}
+
+.openSource {
+  margin-top: 10px;
+  text-align: center;
 }
